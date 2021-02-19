@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65ed8e32-78b3-4680-9e71-18efbd734558" name="Default Changelist" comment="added gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/EGR-400-Project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EGR-400-Project1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseAccessAPI/data/TheDatabaseBlog.sqlite_db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseAccessAPI/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseAccessAPI/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileAPI/data/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FileAPI/data/log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +35,81 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1og8HT4u6GLkqncZFz90LlXnAzf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DatabaseAccessAPI/data" />
+      <recent name="$PROJECT_DIR$/DatabaseAccessAPI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.program (1)">
+    <configuration name="program (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EGR-400-Project1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DatabaseAccessAPI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DatabaseAccessAPI/program.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EGR-400-Project1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FileAPI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FileAPI/program.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.program (1)" />
+        <item itemvalue="Python.program" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,17 +131,74 @@
     <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1925" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613711346430">
-      <screen x="1792" y="25" width="1920" height="1055" />
+    <state x="2135" y="355" key="#SQL_Dialects" timestamp="1613718573771">
+      <screen x="1792" y="25" width="1920" height="994" />
+    </state>
+    <state x="2135" y="355" key="#SQL_Dialects/1792.25.1920.994/0.25.1792.1095@1792.25.1920.994" timestamp="1613718573771" />
+    <state x="1925" y="128" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613718385495">
+      <screen x="1792" y="25" width="1920" height="994" />
     </state>
     <state x="1925" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.25.1920.1055/0.25.1792.1034@1792.25.1920.1055" timestamp="1613711346430" />
+    <state x="1925" y="128" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.25.1920.994/0.25.1792.1095@1792.25.1920.994" timestamp="1613718385495" />
     <state x="2581" y="301" key="FileChooserDialogImpl" timestamp="1613711856831">
       <screen x="1792" y="25" width="1920" height="1055" />
     </state>
     <state x="2581" y="301" key="FileChooserDialogImpl/1792.25.1920.1055/0.25.1792.1034@1792.25.1920.1055" timestamp="1613711856831" />
+    <state width="1750" height="267" key="GridCell.Tab.0.bottom" timestamp="1613718487718">
+      <screen x="1792" y="25" width="1920" height="994" />
+    </state>
+    <state width="1750" height="267" key="GridCell.Tab.0.bottom/1792.25.1920.1055/0.25.1792.1034@1792.25.1920.1055" timestamp="1613717022264" />
+    <state width="1750" height="267" key="GridCell.Tab.0.bottom/1792.25.1920.994/0.25.1792.1095@1792.25.1920.994" timestamp="1613718487718" />
+    <state width="1750" height="267" key="GridCell.Tab.0.center" timestamp="1613718487718">
+      <screen x="1792" y="25" width="1920" height="994" />
+    </state>
+    <state width="1750" height="267" key="GridCell.Tab.0.center/1792.25.1920.1055/0.25.1792.1034@1792.25.1920.1055" timestamp="1613717022263" />
+    <state width="1750" height="267" key="GridCell.Tab.0.center/1792.25.1920.994/0.25.1792.1095@1792.25.1920.994" timestamp="1613718487718" />
+    <state width="1750" height="267" key="GridCell.Tab.0.left" timestamp="1613718487717">
+      <screen x="1792" y="25" width="1920" height="994" />
+    </state>
+    <state width="1750" height="267" key="GridCell.Tab.0.left/1792.25.1920.1055/0.25.1792.1034@1792.25.1920.1055" timestamp="1613717022263" />
+    <state width="1750" height="267" key="GridCell.Tab.0.left/1792.25.1920.994/0.25.1792.1095@1792.25.1920.994" timestamp="1613718487717" />
+    <state width="1750" height="267" key="GridCell.Tab.0.right" timestamp="1613718487718">
+      <screen x="1792" y="25" width="1920" height="994" />
+    </state>
+    <state width="1750" height="267" key="GridCell.Tab.0.right/1792.25.1920.1055/0.25.1792.1034@1792.25.1920.1055" timestamp="1613717022264" />
+    <state width="1750" height="267" key="GridCell.Tab.0.right/1792.25.1920.994/0.25.1792.1095@1792.25.1920.994" timestamp="1613718487718" />
+    <state width="1750" height="330" key="GridCell.Tab.1.bottom" timestamp="1613717612598">
+      <screen x="1792" y="25" width="1920" height="994" />
+    </state>
+    <state width="1750" height="330" key="GridCell.Tab.1.bottom/1792.25.1920.994/0.25.1792.1095@1792.25.1920.994" timestamp="1613717612598" />
+    <state width="1750" height="330" key="GridCell.Tab.1.center" timestamp="1613717612598">
+      <screen x="1792" y="25" width="1920" height="994" />
+    </state>
+    <state width="1750" height="330" key="GridCell.Tab.1.center/1792.25.1920.994/0.25.1792.1095@1792.25.1920.994" timestamp="1613717612598" />
+    <state width="1750" height="330" key="GridCell.Tab.1.left" timestamp="1613717612598">
+      <screen x="1792" y="25" width="1920" height="994" />
+    </state>
+    <state width="1750" height="330" key="GridCell.Tab.1.left/1792.25.1920.994/0.25.1792.1095@1792.25.1920.994" timestamp="1613717612598" />
+    <state width="1750" height="330" key="GridCell.Tab.1.right" timestamp="1613717612598">
+      <screen x="1792" y="25" width="1920" height="994" />
+    </state>
+    <state width="1750" height="330" key="GridCell.Tab.1.right/1792.25.1920.994/0.25.1792.1095@1792.25.1920.994" timestamp="1613717612598" />
+    <state width="237" height="457" key="HiddenNamespacesPopup" timestamp="1613718280985">
+      <screen x="1792" y="25" width="1920" height="994" />
+    </state>
+    <state width="237" height="457" key="HiddenNamespacesPopup/1792.25.1920.994/0.25.1792.1095@1792.25.1920.994" timestamp="1613718280985" />
     <state x="2303" y="158" key="SettingsEditor" timestamp="1613712095995">
       <screen x="1792" y="25" width="1920" height="1055" />
     </state>
@@ -84,5 +208,13 @@
     </state>
     <state x="543" y="344" key="Vcs.Push.Dialog.v2/1792.25.1920.1055/0.25.1792.1034@0.25.1792.1034" timestamp="1613698182904" />
     <state x="2374" y="350" key="Vcs.Push.Dialog.v2/1792.25.1920.1055/0.25.1792.1034@1792.25.1920.1055" timestamp="1613713361843" />
+    <state x="2590" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613716332498">
+      <screen x="1792" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2590" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1792.25.1920.1055/0.25.1792.1034@1792.25.1920.1055" timestamp="1613716332498" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EGR_400_Project1$program__1_.coverage" NAME="program (1) Coverage Results" MODIFIED="1613718487712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DatabaseAccessAPI" />
+    <SUITE FILE_PATH="coverage/EGR_400_Project1$program.coverage" NAME="program Coverage Results" MODIFIED="1613717014303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FileAPI" />
   </component>
 </project>
