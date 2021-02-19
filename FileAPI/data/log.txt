@@ -1,0 +1,19 @@
+DESKTOP-SDHC6A3/2017_3_30 15:32:29: Application starting up...
+DESKTOP-SDHC6A3/2017_3_30 15:32:29: Data folder: C:\S3LLC\Instructor\Python\Advanced\2351-001-1_AdvPython\student\02_File_IO\lab\data
+DESKTOP-SDHC6A3/2017_3_30 15:32:29: Loading XML file: C:\S3LLC\Instructor\Python\Advanced\2351-001-1_AdvPython\student\02_File_IO\lab\data\michael-kennedy-blog.xml
+DESKTOP-SDHC6A3/2017_3_30 15:32:29: Found 50 titles in RSS feed.
+DESKTOP-SDHC6A3/2017_3_30 15:32:29: Loading JSON file: C:\S3LLC\Instructor\Python\Advanced\2351-001-1_AdvPython\student\02_File_IO\lab\data\python-course.json
+DESKTOP-SDHC6A3/2017_3_30 15:32:30: Found course title to be: Essential Python
+DESKTOP-SDHC6A3/2017_3_30 15:32:30: Loading CSV file: C:\S3LLC\Instructor\Python\Advanced\2351-001-1_AdvPython\student\02_File_IO\lab\data\fx-seven-day.csv
+DESKTOP-SDHC6A3/2017_3_30 15:32:30: 1 USD is worth 60.11535745114965 Rupees.
+DESKTOP-F20B8ON/2021_2_18 22:18:24: Application starting up...
+DESKTOP-F20B8ON/2021_2_18 22:18:24: Data folder: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data
+DESKTOP-F20B8ON/2021_2_18 22:18:24: Loading XML file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\data/michael-kennedy-blog.xml
+DESKTOP-F20B8ON/2021_2_18 22:19:18: Application starting up...
+DESKTOP-F20B8ON/2021_2_18 22:19:18: Data folder: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data
+DESKTOP-F20B8ON/2021_2_18 22:19:18: Loading XML file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\michael-kennedy-blog.xml
+DESKTOP-F20B8ON/2021_2_18 22:19:18: Found 50 titles in RSS feed.
+DESKTOP-F20B8ON/2021_2_18 22:19:18: Loading JSON file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\python-course.json
+DESKTOP-F20B8ON/2021_2_18 22:19:18: Found course title to be: Essential Python
+DESKTOP-F20B8ON/2021_2_18 22:19:18: Loading CSV file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\fx-seven-day.csv
+DESKTOP-F20B8ON/2021_2_18 22:19:18: 1 USD is worth 60.11535745114965 Rupees.
