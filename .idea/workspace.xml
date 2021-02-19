@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="65ed8e32-78b3-4680-9e71-18efbd734558" name="Default Changelist" comment="" />
+    <list default="true" id="65ed8e32-78b3-4680-9e71-18efbd734558" name="Default Changelist" comment="added gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/EGR-400-Project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EGR-400-Project1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,10 +56,33 @@
       <updated>1613696784249</updated>
       <workItem from="1613696786737" duration="34000" />
       <workItem from="1613696869491" duration="721000" />
+      <workItem from="1613710931476" duration="1629000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1925" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613711346430">
+      <screen x="1792" y="25" width="1920" height="1055" />
+    </state>
+    <state x="1925" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.25.1920.1055/0.25.1792.1034@1792.25.1920.1055" timestamp="1613711346430" />
+    <state x="2581" y="301" key="FileChooserDialogImpl" timestamp="1613711856831">
+      <screen x="1792" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2581" y="301" key="FileChooserDialogImpl/1792.25.1920.1055/0.25.1792.1034@1792.25.1920.1055" timestamp="1613711856831" />
+    <state x="2303" y="158" key="SettingsEditor" timestamp="1613712095995">
+      <screen x="1792" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2303" y="158" key="SettingsEditor/1792.25.1920.1055/0.25.1792.1034@1792.25.1920.1055" timestamp="1613712095995" />
+    <state x="2374" y="350" key="Vcs.Push.Dialog.v2" timestamp="1613713361843">
+      <screen x="1792" y="25" width="1920" height="1055" />
+    </state>
+    <state x="543" y="344" key="Vcs.Push.Dialog.v2/1792.25.1920.1055/0.25.1792.1034@0.25.1792.1034" timestamp="1613698182904" />
+    <state x="2374" y="350" key="Vcs.Push.Dialog.v2/1792.25.1920.1055/0.25.1792.1034@1792.25.1920.1055" timestamp="1613713361843" />
   </component>
 </project>
