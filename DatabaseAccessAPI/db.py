@@ -29,7 +29,6 @@ class DB:
 
         print('')
 
-
     def insert_base_data(self):
         print('')
         print('Inserting base data')
@@ -70,7 +69,6 @@ class DB:
                 print(row)
         print()
 
-
     def show_funny_rows(self):
         print("Showing funny rows")
         with sqlite3.connect(self.db_file) as db:
@@ -78,15 +76,6 @@ class DB:
             cursor = db.execute("SELECT * FROM Posts WHERE Title LIKE '%funny%' ORDER BY published DESC")
             for row in cursor:
                 print("{0}, pubished on {1}".format(row['title'], row['published']))
-        print()
-
-    def search_bad(self, search_text):
-        print("Showing all rows")
-        with sqlite3.connect(self.db_file) as db:
-            db.row_factory = sqlite3.Row
-            cursor = db.execute("SELECT * FROM Posts WHERE Title LIKE '%" + search_text + "%' ORDER BY published DESC")
-            for row in cursor:
-                print("{0}, published on {1}".format(row['title'], row['published']))
         print()
 
     def search(self, search_text):
