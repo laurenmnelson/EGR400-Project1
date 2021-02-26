@@ -4,8 +4,16 @@ import xml.etree.ElementTree as xmltree
 import os
 from FileAPI.logger import Logger
 
+"""
+The FileParserAPI class parses xml, csv, and json
+and logs it to the log.txt file by utilizing the
+Logger class.
 
-class Program:
+@authors: Tomas Perez, Lauren Nelson, Roberto Rodriguez 
+"""
+
+
+class FileParserAPI:
     def __init__(self):
         this_folder = os.path.dirname(__file__)
         data_folder = this_folder + '/data'
@@ -27,17 +35,17 @@ class Program:
 
     def load_xml(self):
         filename = os.path.join(self.data_folder, "michael-kennedy-blog.xml")
-        # TODO: log which xml file is being opened
+        # Log which xml file is being opened
         self.logger.log("Loading XML file: {0}".format(filename))
-        # TODO: Create new ElementTree and parse file
+        # Create new ElementTree and parse file
         dom = xmltree.ElementTree()
         dom.parse(filename)
         print()
         print("Titles of recent posts:")
-        # TODO: use the xpath expression channel/item to find all blog posts
+        # Use the xpath expression channel/item to find all blog posts
         items = list(dom.findall("channel/item"))
         self.logger.log("Found {0} titles in RSS feed.".format(len(items)))
-        # TODO: loop over and find title and link
+        # Loop over and find title and link
         for item in items:
             print("{0} [{1}]".format(
                 item.find("title").text,
@@ -47,13 +55,13 @@ class Program:
 
     def load_json(self):
         filename = os.path.join(self.data_folder, "python-course.json")
-        # TODO: log which json file is being opened
+        # Log which json file is being opened
         self.logger.log("Loading JSON file: {0}".format(filename))
-        # TODO: open a file as a standard text file
-        # TODO: read the contents into a string
-        # TODO: load the string with json module
-        # TODO: locate the course Name property, show and log it.
-        # TODO: find the course engagements via the Engagements property, print the City of each
+        # Open a file as a standard text file
+        # Read the contents into a string
+        # Load the string with json module
+        # Locate the course Name property, show and log it.
+        # Find the course engagements via the Engagements property, print the City of each
         with open(filename, "r") as file_input:
             data = json.loads(file_input.read())
             print("Course title: {0}".format(data["Name"]))
@@ -67,14 +75,9 @@ class Program:
 
     def load_csv(self):
         filename = os.path.join(self.data_folder, "fx-seven-day.csv")
-        # TODO: log which csv file is being opened
+        # Log which csv file is being opened
         self.logger.log("Loading CSV file: {0}".format(filename))
-
-        # TODO: Answer what is the 7 day average for RUPEEs to USD?
-        # (need to go from rupees -> canadian dollars -> usd)
-        # hint: build a lookup of each row by ID (e.g. CZK),
-        #       store the seven day values as a list of floats.
-
+        # Calculate the 7 day average for RUPEEs to USD
         lookup = self.build_currency_lookup(filename)
         rupee = lookup["INR"]
         usd = lookup["USD"]
@@ -82,11 +85,17 @@ class Program:
         usa_per_canadian_dollar = self.average(usd["values"])
         rupee_per_usd = usa_per_canadian_dollar / rupees_per_canadian_dollar
 
-        # TODO: show and log the answer 1 USD is worth X Rupees
-        # note: this value should be around 60.
-        # we have provided an average method below for you to use
         print("1 USD is worth {0} Rupees.".format(rupee_per_usd))
         self.logger.log("1 USD is worth {0} Rupees.".format(rupee_per_usd))
+
+    """
+    This helper method will do a currency lookup in order
+    to get a full list of currencies from different 
+    countries and data pertaining to conversions.
+    @filename:param - the file that stores the data for currencies.
+    @:return - a dictionary containing all the data for each
+                country and its currency.
+    """
 
     @staticmethod
     def build_currency_lookup(filename):
@@ -117,6 +126,14 @@ class Program:
                 lookup[entry["key"]] = entry
         return lookup
 
+    """
+    This helper method calculates the average
+    from a list of numbers.
+    @numbers:param - the list of numbers to calculate
+                        the average for.
+    @:return - the calculated average.
+    """
+
     @staticmethod
     def average(numbers):
         if len(numbers) <= 0:
@@ -126,5 +143,5 @@ class Program:
 
 
 if __name__ == "__main__":
-    p = Program()
+    p = FileParserAPI()
     p.run()
