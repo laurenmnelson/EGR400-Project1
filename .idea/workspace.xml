@@ -27,13 +27,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65ed8e32-78b3-4680-9e71-18efbd734558" name="Default Changelist" comment="most of the db finished">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/EGR-400-Project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EGR-400-Project1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/31027964-3c63-4224-8ff3-691d17ea237b.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileAPI/data/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FileAPI/data/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileAPI/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileAPI/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileAPI/program.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileAPI/fileparserapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseAccessAPI/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseAccessAPI/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseAccessAPI/program.py" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseAccessAPI/program.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +133,7 @@
       <workItem from="1613696869491" duration="721000" />
       <workItem from="1613710931476" duration="1629000" />
       <workItem from="1614052508657" duration="1752000" />
+      <workItem from="1614308284491" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="most of the db finished">
       <created>1613718618944</created>
@@ -153,7 +153,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/CodeCleanupSection1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

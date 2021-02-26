@@ -2,13 +2,22 @@ import time
 import os
 import sqlite3
 
+"""
+The DB class either creates a database or uses a pre-existing one.
+It then performs different search queries on the tables.
 
+@authors: Tomas Perez, Lauren Nelson, Roberto Rodriguez 
+"""
 class DB:
     def __init__(self):
         self.db_name = "TheDatabaseBlog"
         file = os.path.join("data", self.db_name + ".sqlite_db")
         self.db_file = os.path.abspath(file)
 
+    """
+    Creates a database with tables if it doesn't exist
+    if exists, returns the database
+    """
     def create_db(self):
         if os.path.exists(self.db_file):
             print("Database already exists at following location, skipping create")
@@ -29,6 +38,9 @@ class DB:
 
         print('')
 
+    """
+    Inserts data into the database if it doesn't have any
+    """
     def insert_base_data(self):
         print('')
         print('Inserting base data')
@@ -55,12 +67,18 @@ class DB:
                 ' ("A very funny post", "This is the content of funny post")')
         print("done")
 
+    """
+    Returns the amount of Posts
+    """
     def has_data(self):
         with sqlite3.connect(self.db_file) as db:
             cursor = db.execute("SELECT count(*) FROM Posts")
             data_count = cursor.fetchone()[0]
             return data_count > 0
 
+    """
+    Prints the rows of the database
+    """
     def show_all_rows(self):
         print("Showing all rows")
         with sqlite3.connect(self.db_file) as db:
@@ -69,6 +87,9 @@ class DB:
                 print(row)
         print()
 
+    """
+    Prints out the rows containing the word 'funny'
+    """
     def show_funny_rows(self):
         print("Showing funny rows")
         with sqlite3.connect(self.db_file) as db:
@@ -78,6 +99,9 @@ class DB:
                 print("{0}, pubished on {1}".format(row['title'], row['published']))
         print()
 
+    """
+    Searches the text for text that is passed in
+    """
     def search(self, search_text):
         search_text = "%{0}%".format(search_text)
         print("Showing all rows")
