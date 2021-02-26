@@ -1,6 +1,9 @@
 from DatabaseAccessAPI.db import DB
 
-
+"""
+Driver for creating the database, showing rows, and editing it
+@authors: Tomas Perez, Lauren Nelson, Roberto Rodriguez 
+"""
 def main():
     print("DBAPI Lab starting up...")
     print()
