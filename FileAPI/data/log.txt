@@ -33,3 +33,26 @@ Laurens-MacBook-Pro.local/2021_2_18 22:43:34: Loading JSON file: /Users/laurenne
 Laurens-MacBook-Pro.local/2021_2_18 22:43:34: Found course title to be: Essential Python
 Laurens-MacBook-Pro.local/2021_2_18 22:43:34: Loading CSV file: /Users/laurennelson/Desktop/CBU SPRING 2021/Full Stack Python/HW/EGR-400-Project1/FileAPI/data/fx-seven-day.csv
 Laurens-MacBook-Pro.local/2021_2_18 22:43:34: 1 USD is worth 60.11535745114965 Rupees.
+DESKTOP-F20B8ON/2021_2_25 17:48:20: Application starting up...
+DESKTOP-F20B8ON/2021_2_25 17:48:20: Data folder: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data
+DESKTOP-F20B8ON/2021_2_25 17:48:20: Loading XML file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\michael-kennedy-blog.xml
+DESKTOP-F20B8ON/2021_2_25 17:48:20: Found 50 titles in RSS feed.
+DESKTOP-F20B8ON/2021_2_25 17:48:20: Loading JSON file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\python-course.json
+DESKTOP-F20B8ON/2021_2_25 17:48:20: Found course title to be: Essential Python
+DESKTOP-F20B8ON/2021_2_25 17:48:20: Loading CSV file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\fx-seven-day.csv
+DESKTOP-F20B8ON/2021_2_25 17:48:20: 1 USD is worth 60.11535745114965 Rupees.
+DESKTOP-F20B8ON/2021_2_25 17:57:4: Application starting up...
+DESKTOP-F20B8ON/2021_2_25 17:57:4: Data folder: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data
+DESKTOP-F20B8ON/2021_2_25 17:57:4: Loading XML file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\michael-kennedy-blog.xml
+DESKTOP-F20B8ON/2021_2_25 17:57:4: Found 50 titles in RSS feed.
+DESKTOP-F20B8ON/2021_2_25 17:57:4: Loading JSON file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\python-course.json
+DESKTOP-F20B8ON/2021_2_25 17:57:4: Found course title to be: Essential Python
+DESKTOP-F20B8ON/2021_2_25 17:57:4: Loading CSV file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\fx-seven-day.csv
+DESKTOP-F20B8ON/2021_2_25 17:57:4: 1 USD is worth 60.11535745114965 Rupees.
+DESKTOP-F20B8ON/2021_2_25 18:2:6: Application starting up...
+DESKTOP-F20B8ON/2021_2_25 18:2:6: Data folder: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data
+DESKTOP-F20B8ON/2021_2_25 18:2:6: Loading XML file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\michael-kennedy-blog.xml
+DESKTOP-F20B8ON/2021_2_25 18:2:6: Found 50 titles in RSS feed.
+DESKTOP-F20B8ON/2021_2_25 18:2:6: Loading JSON file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\python-course.json
+DESKTOP-F20B8ON/2021_2_25 18:2:6: Found course title to be: Essential Python
+DESKTOP-F20B8ON/2021_2_25 18:2:6: Loading CSV file: D:\Users\tomas\PycharmProjects\EGR400_2\11\EGR-400-Project1\FileAPI\data\fx-seven-day.csv
